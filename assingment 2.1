@@ -1,0 +1,11 @@
+sample_list =  [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+l=len(sample_list)
+for a in range(0,1):
+    for b in range(0,1-a-1):
+        if (sample_list[b][-1])>sample_list[b+1][-1]:
+            t=sample_list[b]
+            sample_list[b]=sample_list[b+1]
+            sample_list[b+1]=t
+print(sample_list)
+[(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+
