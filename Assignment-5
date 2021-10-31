@@ -1,0 +1,9 @@
+class pow:
+    def __init__(self,x,y):
+        self.base=x
+        self.power=y
+        self.answer=x**y
+        print(self.answer)
+        pow(10,2)
+        100
+        <__main__.pow at 0x20c39361970>
